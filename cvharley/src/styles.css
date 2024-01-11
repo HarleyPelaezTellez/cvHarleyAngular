@@ -6,3 +6,7 @@
 .container{
     @apply w-4/5 h-auto mx-auto
 }
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}

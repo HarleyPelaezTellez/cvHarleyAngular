@@ -1,0 +1,35 @@
+.container{
+    @apply mt-5 text-slate-950 flex m-auto p-6
+}
+
+.content{
+    @apply w-4/5 flex flex-row h-4/5 m-auto bg-slate-50 p-6 rounded-md
+}
+
+.text{
+    @apply w-2/4 h-full text-center flex flex-col m-auto
+}
+
+h1{
+    @apply text-4xl font-bold mt-3
+}
+
+h3{
+    @apply text-xl font-semibold
+}
+
+p{
+    @apply text-xl font-light text-pretty my-3
+}
+
+button{
+    @apply text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-2 shadow-md shadow-slate-950
+}
+
+.img-container{
+    @apply w-2/4 h-auto flex    
+}
+
+img{
+    @apply w-2/5 h-auto rounded-md m-auto shadow-lg shadow-slate-950
+}

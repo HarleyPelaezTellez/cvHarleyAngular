@@ -9,4 +9,7 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  nombre = 'Harley';
+  correo = 'arleypelaez30@gmail.com';
+
 }
